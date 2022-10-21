@@ -1,8 +1,9 @@
 .container {
     display: grid;
+    height: 100vh;
     grid-template-rows: -0.17fr 0.6fr 0.3 fr;
     grid-template-columns: auto -0.2fr -0.4fr;
-    height: 45vh;
+    
     grid-template-areas:
             "header header header"
             "leftsidebar main rightsidebar"
@@ -13,9 +14,9 @@
     text-align: center;
     text-transform:uppercase;
     grid-column-end: auto;
-    place-content: center;
-    align-content: stretch;
-    place-content: bottom case;
+    
+    
+    
 }
 header {
     background-color:#fe8515;
